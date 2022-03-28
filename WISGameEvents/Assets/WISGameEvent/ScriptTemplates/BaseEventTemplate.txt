@@ -1,0 +1,13 @@
+using UnityEngine;
+using WIS.Utils.Events;
+
+//Event
+//Set the menu name as you see fit.
+[CreateAssetMenu(fileName = "New#EVENTNAME#", menuName = "WIS/GameEvents/#EVENTNAME#")]
+public class #EVENTNAME# : BaseGameEvent<#EVENTNAME#Args> { }
+
+//Arguments
+//Put parameters here if you want to pass that through the event
+public class #EVENTNAME#Args {
+
+}
